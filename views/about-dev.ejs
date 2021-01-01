@@ -1,0 +1,17 @@
+<style>
+#dev {
+    background-color: #2a3451;
+    border-radius: 15px;
+}
+</style>
+<div class="row mt-5">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 text-center" id="dev">
+        <h1><%= devs.firstName %> <%= devs.lastName %></h1>
+        <h2><%= devs.jobTitle %></h2>
+        <img src="<%= devs.imageUrl %>" alt="" width="200" class="img-fluid  mb-3 img-thumbnail shadow-sm">
+        <p><%= devs.grade %> <%= devs.major %> student at <%= devs.school %></p>
+        <p><%= devs.description %></p>
+    </div>
+    <div class="col-md-3"></div>
+</div>
